@@ -1,5 +1,4 @@
-
-mainmenu "C/CPP CMake project framework Kconfig configuration"
+mainmenu "Project Framework Kconfig Configuration"
 
 menu "Toolchain configuration"
 	config TOOLCHAIN_PATH
@@ -13,8 +12,5 @@ endmenu
 
 menu "Components configuration"
 	osource "${SDK_PATH}/components/*/Kconfig"
-	osource "${PROJECT_PATH}/*/Kconfig"
+	osource "${SDK_PATH}/components/*/Kconfig"
 endmenu
-
-
-

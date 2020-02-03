@@ -1,3 +1,5 @@
 [submodule "Kconfiglib"]
 	path = Kconfiglib
 	url = git@github.com:ulfalizer/Kconfiglib.git
+	tag = v14.1.0
+	ignore = dirty
